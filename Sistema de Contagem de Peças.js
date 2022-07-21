@@ -3,10 +3,10 @@ var nomePeca = "";
 var qtdpPecasCaixa = 0;
 pesoPeca = prompt("Informe a quantidade peças na caixa");
 
-    if (pesoPeca >=10) {
+    if (pesoPeca >=3) {
      nomePeca + prompt("Informe o nome da peça");
 
-       if (nomePeca.length <= 10){
+       if (nomePeca.length <= 3){
            qtdpPecasCaixa = prompt("Informe a quantidade peças na caixa");
 
           if (qtdpPecasCaixa >= 10) {
